@@ -1,0 +1,84 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    line-height: 2;
+    font-family: Verdana;
+    border: 1px solid lightgray;
+    max-width: 980px;
+    max-height: 4000px;
+    height: 620px;
+    padding: 2em;
+}
+
+body {
+    margin: 1.5em;
+}
+
+.container {
+    background: #fff;
+    color: #525865;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+}
+
+
+.cointainer:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: 850px;
+    max-height: 570px;
+    height: 4500px;
+    width: 3000px;
+    border-radius: 10px;
+    padding: 8em;
+}
+
+.contact form {
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+    align-content: center;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+    .contact form label {
+        display: block;
+    }
+
+    .contact form p {
+        margin: 0;
+    }
+
+h3 {
+    margin-left: 150px;
+    margin-right: 100px
+
+}
+
+
+input {
+    border-radius: 1px;
+    height: 20px;
+}
