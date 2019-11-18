@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="../CSS/stylesheet.css" type="text/css">
 
     <title>Login page</title>
+    <style>
+        input[type=button] {
+            background-color: blue;
+            border: 0;
+            color: white;
+            border-radius: 50px;
+            width: 80px;
+            height: 40px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -19,7 +29,7 @@
                 <p>
                     <label>Email</label>
                     <input align="right" type="text" name="name" size="40">
-                </p>
+                </p><br />
                 <p>
                     <label>Password</label>
                     <input type="password" name="pass" value="********" size="40">
@@ -30,7 +40,7 @@
 
                 </p>
                 <p>
-                    <button>Login</button>
+                    <input type="button" value="Login" onclick="location.href='HTMLPage2.html';">
                 </p>
 
             </form>

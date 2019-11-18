@@ -43,10 +43,10 @@ body {
 }
 
 .container {
-    max-width: 920px;
+    max-width: 850px;
     max-height: 570px;
     height: 4500px;
-    width: 5000px;
+    width: 3000px;
     border-radius: 10px;
     padding: 8em;
 }
@@ -61,6 +61,8 @@ body {
     margin-bottom: 50px;
 }
 
+
+
     .contact form label {
         display: block;
     }
@@ -71,23 +73,12 @@ body {
 
 h3 {
     margin-left: 150px;
-    margin-right: 100px;
+    margin-right: 100px
+
 }
 
-.contact form button {
-    background-color: blue;
-    border: 0;
-    color: white;
-    border-radius: 50px;
-    width: 80px;
-    height: 40px;
-}
 
 input {
     border-radius: 1px;
     height: 20px;
-}
-p {
-    margin-left: 150px;
-    margin-right: 100px;
 }
