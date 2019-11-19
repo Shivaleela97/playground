@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <style>
 
 
@@ -114,10 +112,7 @@
 
 
         #mode1 {
-            position: relative;
-            top: 20px;
-            right: 30px;
-            left: 90px;
+            
         }
 
         #mode2 {
@@ -249,6 +244,19 @@
             right: 30px;
             left: 20px;
         }
+        .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+ 
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+            top: 34px;
+            right: 30px;
+            left: 95px;
+}
        
 
     </style>
@@ -268,7 +276,7 @@
                 <div class="column left">
                     <div style="float:right">
                         <img src="../Images/img_avatar.png" alt="Avatar" class="avatar" id="mode2"><h6 id="mode3" style="font-size:12px">John Deo</h6>
-                        <i style='font-size:24px' class='fas' id="mode1">&#xf107;</i>
+                        <i class="down"></i>
 
                     </div>
 
