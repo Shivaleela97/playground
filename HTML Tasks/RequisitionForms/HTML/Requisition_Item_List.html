@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+
+
+
+        .container {
+            border: 3px solid #f1f1f1;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+
+        .row {
+            background: white;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+
+
+        body {
+            width: 1000px;
+            margin-left: 160px;
+        }
+
+        .bar {
+            width: 15px;
+            height: 3px;
+            background-color: #aaa;
+            margin: 3px 5px;
+            display: block;
+            position: relative;
+            top: 25px;
+            right: 10px;
+            left: 15px;
+        }
+
+        .content {
+            padding: 7px;
+            background-color: lightgray;
+        }
+
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        .fa {
+            padding: 2em;
+        }
+
+        .avatar {
+            vertical-align: middle;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: -300px;
+            margin-left: 260px;
+            margin-bottom: 40px;
+            margin-top: 15px;
+            float: left;
+        }
+
+        h6 {
+            float: right;
+            margin-bottom: 30px;
+            margin-right: -350px;
+            margin-left: 60px;
+        }
+
+
+        .header {
+            background: white;
+            font-size: 30px;
+            width: 850px;
+            height: 40%;
+        }
+
+        i {
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            margin-bottom: 40px;
+            margin-right: -70px;
+        }
+
+        .m3 {
+            border: 1px solid black;
+            width: 72px;
+            float: left;
+            position: relative;
+            top: 5px;
+            right: 30px;
+            left: 38px;
+        }
+
+
+
+        #mode1 {
+            position: relative;
+            top: 20px;
+            right: 30px;
+            left: 90px;
+        }
+
+        #mode2 {
+            position: relative;
+            top: 5px;
+            right: 30px;
+            left: -250px;
+        }
+
+        #mode3 {
+            position: relative;
+            top: 5px;
+            right: 30px;
+            left: -260px;
+        }
+
+        
+
+        #mmm {
+            position: relative;
+            top: 20px;
+            right: 30px;
+            left: 35px;
+        }
+
+        #mm {
+            transform: rotate(270deg);
+            position: relative;
+            top: 18px;
+            right: 30px;
+            left: -370px;
+        }
+
+        #m {
+            position: relative;
+            top: 2px;
+            right: 30px;
+            left: 46px;
+        }
+
+        .step {
+            border: 1px solid black;
+            border-radius: 0.5em;
+            -moz-border-radius: 0.4em;
+            -webkit-border-radius: 0.8em;
+            color: black;
+            display: inline-block;
+            line-height: 1.4em;
+            margin-right: 5px;
+            text-align: center;
+            width: 1.5em;
+        }
+
+        .v1 {
+            border-left: 2px dotted black;
+            height: 35px;
+            margin-top: 19px;
+            margin-bottom: -15px;
+        }
+
+        #model4 {
+            position: relative;
+            top: 25px;
+            right: 30px;
+            left: 20px;
+        }
+
+        #model5 {
+            position: relative;
+            top: -40px;
+            right: 30px;
+            left: -10px;
+        }
+         #model6{
+            position: relative;
+            top: 25px;
+            right: 30px;
+            left: 38px;
+        }
+
+        #model3 {
+            position: relative;
+            top: -66px;
+            right: 30px;
+            left: 100px;
+        }
+
+        #model1 {
+            position: relative;
+            top: -18px;
+            right: 30px;
+            left: 680px;
+        }
+
+        #model2 {
+            position: relative;
+            top: -92px;
+            right: 30px;
+            left: 250px;
+        }
+
+        #m1 {
+            position: relative;
+            top: -30px;
+            right: 30px;
+            left: -80px;
+        }
+        #mode4 {
+            position: relative;
+            top: -138px;
+            right: 30px;
+            left: 760px;
+        }
+        #mode {
+            position: relative;
+            top: -75px;
+            right: 30px;
+            left: 760px;
+        }
+        #m2{
+            position: relative;
+            top: -34px;
+            right: 30px;
+            left: -500px;
+        }
+        #mod{
+            position: relative;
+            top: 5px;
+            right: 30px;
+            left: 20px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="row">
+
+                <div class="column left">
+                    <div style="float:left">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <div class="column left">
+                    <div style="float:right">
+                        <img src="../Images/img_avatar.png" alt="Avatar" class="avatar" id="mode2"><h6 id="mode3" style="font-size:12px">John Deo</h6>
+                        <i style='font-size:24px' class='fas' id="mode1">&#xf107;</i>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="row">
+                <div class="column" style="background-color:white;width:100px;">
+                    <h6 id="mm">REQUSITION</h6><br /><br /><br /><br /><br /><br />
+                    <span class="step" id="mmm" >1</span>
+
+                    <div class="v1" id="m"></div>
+                    <span class="step" id="mmm" style="background-color:deepskyblue;">2</span>
+
+                    <div class="v1" id="m"></div>
+                    <span class="step" id="mmm">3</span>
+                    <div class="v1" id="m"></div>
+                    <span class="step" id="mmm">4</span>
+                    <div class="v1" id="m"></div>
+                    <span class="step" id="mmm">5</span>
+                    <div class="v1" id="m"></div>
+                    <span class="step" id="mmm">6</span>
+                </div>
+                <div class="column" style="background-color:whitesmoke;width:880px;">
+                    <div class="row" style="background-color:white;width:820px;margin-left:32px;">
+                        <div class="row" style="background-color:lightgray;width:820px;height:80px">
+                            <h4 style="font-size:12px;" id="model4">ITEMS</h4>
+                            <p style="font-size:12px;" id="model4">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                            <h5 style="text-align:right;" id="m1">ADD ITEMS</h5>
+                            <button style="background-color:deepskyblue;color:white;border-radius:18px;font-size:20px" id="mode">+</button>
+                        </div>
+                        <div class="row" style="background-color:white;width:820px;height:120px">
+
+                            <p style="font-size:12px;" id="model4">
+                                IBM ThinkServer TS150 Twoer Server With<br />
+                                Max.Processor 1x Intel Xeon E3(Quad<br />
+                                Core)E3-1225 v5*(3.3 GHz / Cache 8MB)<br /><br />
+                                READ MORE
+                            </p>
+
+
+                            <p style="text-align:center;font-size:12px;" id="model5">01</p>
+                            <p style="text-align:center;font-size:12px;" id="model3">10 Jul 2019</p>
+                            <p style="text-align:center;font-size:12px;" id="model2">Rs. 45,000</p>
+                            <i style="font-size:8px;background-color:deepskyblue;color:white;border-radius:25px" class="fa" id="mode4">&#xf0c9;</i>
+
+                        </div>
+                        
+                        <div class="row" style="background-color:white;width:820px;height:120px">
+                            <p style="font-size:12px;" id="model4">
+                                Lenovo ThinkServer TS450<br />
+                                (PN:70M2001VIH) With Max.Processor 1<br />
+                                x Intel Xeon E3(Quad Core) E3-1225<br /><br />
+                                READ MORE
+                            </p>
+                            <p style="text-align:center;font-size:12px;" id="model5">02</p>
+                            <p style="text-align:center;font-size:12px;" id="model3">10 Jul 2019</p>
+                            <p style="text-align:center;font-size:12px;" id="model2">Rs. 45,000</p>
+                            <i style="font-size:8px;background-color:deepskyblue;color:white;border-radius:25px" class="fa" id="mode4">&#xf0c9;</i>
+
+                        </div>
+                        <div class="row" style="background-color:white;width:820px;height:120px">
+                            <p style="font-size:12px;" id="model4">
+                                IBM X3300M4 Server With x3300M4/Part<br />
+                                No:73821A4/Intel/1x 8GB RAM/<br /><br />
+                                READ MORE
+                            </p>
+                            <p style="text-align:center;font-size:12px;" id="model5">01</p>
+                            <p style="text-align:center;font-size:12px;" id="model3">10 Jul 2019</p>
+                            <p style="text-align:center;font-size:12px;" id="model2">Rs. 45,000</p>
+                            <i style="font-size:8px;background-color:deepskyblue;color:white;border-radius:25px" class="fa" id="mode4">&#xf0c9;</i>
+
+                        </div>
+                        <div class="row" style="background-color:white;width:820px;height:120px">
+                            <p style="font-size:12px;" id="model4">
+                                IBM Lenovo ThinkServer RD450 Rack<br />
+                                Server(PN:70Q900591IH) With 1x Intel@<br />
+                                Xenon@ E5-2620v4(2.1GHz/8c/20MB<br /><br />
+                                READ MORE
+                            </p>
+                            <p style="text-align:center;font-size:12px;" id="model5">01</p>
+                            <p style="text-align:center;font-size:12px;" id="model3">10 Jul 2019</p>
+                            <p style="text-align:center;font-size:12px;" id="model2">Rs. 45,000</p>
+                            <i style="font-size:8px;background-color:deepskyblue;color:white;border-radius:25px" class="fa"id="mode4" >&#xf0c9;</i>
+
+                        </div><br /><br />
+                        <div class="row" style="background-color:white;width:820px;height:120px">
+                            <p style="font-size:12px;" id="mod">
+                                daptec 128MB Raid Controller Pair,Pei-e<br />
+                                SAS/SATA
+                            </p>
+                            <p style="text-align:center;font-size:12px;" id="model5">01</p>
+                            <p style="text-align:center;font-size:12px;" id="model3">10 Jul 2019</p>
+                            <p style="text-align:center;font-size:12px;" id="model2">Rs. 45,000</p>
+                            <i style="font-size:8px;background-color:deepskyblue;color:white;border-radius:25px" class="fa" id="mode4">&#xf0c9;</i>
+
+                        </div>
+                        </div>
+                            
+                            <p class="m2" id="model6" style="font-size:12px">SAVE DRAFT</p><hr class="m3"  />
+                            <h6 style="color:deepskyblue;float:right;" id="m2"><u>BACK</u></h6>
+                            <input type="button" value="Next ->" id="model1" style="border-radius:10px;color:white;background-color:deepskyblue;height:25px;" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
