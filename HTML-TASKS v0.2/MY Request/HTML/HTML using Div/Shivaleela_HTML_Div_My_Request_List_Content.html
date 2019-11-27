@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   
+    <title>Page7</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin-left:1.5%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        .container {
+            border: 3px solid #f1f1f1;
+            
+        }
+
+
+        .row {
+            padding: 10px;
+            background: white;
+            
+        }
+
+
+        .column {
+            float: right;
+        }
+
+        .left {
+            width: 15%;
+        }
+
+        .right {
+            width: 10%;
+        }
+
+        .middle {
+            width: 50%;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+       
+
+
+
+
+
+        input[type=text] {
+            width: 50%;
+            border-radius: 5px;
+            
+            background-color: white;
+            
+            height: 20px;
+            color: #666;
+            padding: 5px;
+        }
+
+
+        .bar {
+            width: 15px;
+            height: 3px;
+            background-color: #aaa;
+            margin: 3px 5px;
+            display: block;
+             position:relative;
+                 top:15px;
+                 right:10px;
+                 left:5px;
+        }
+        .button{
+             position:relative;
+             padding: 10px;
+             float: right;
+             top:12px;
+                 
+        }
+
+
+        .content {
+            padding: 10px;
+            background-color: #F6F8F9;
+        }
+
+        .column {
+            float: left;
+            width: 30.33%;
+            padding: 10px;
+            height: 70px;
+        }
+
+
+        .fa {
+            padding: 2em;
+        }
+
+        .avatar {
+            vertical-align: middle;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position:relative;
+            right:80px;
+            top:10px;
+            float: right;
+        }
+
+
+
+       
+
+        h6 {
+            float: right;
+            position:relative;
+            bottom:5px;
+            left:10px;
+        }
+
+        i {
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+             position:relative;
+                 bottom:45px;
+                 left:410px;
+           
+        }
+
+                
+               #model{
+                    
+ 
+                 position:relative;
+                 top:10px;
+                 
+                 left:5px;
+
+                }
+                #model1{
+                    
+ 
+                 position:relative;
+                 
+                 bottom:35px;
+                left:60px;
+
+                }
+                 #model11{
+                    
+ 
+                 position:relative;
+                 top:20px;
+                 
+                 left:360px;
+
+                }
+                
+        .model3 {
+            position: relative;
+            top:10px;
+            right: 35px;
+            
+        }
+        #model4 {
+            position: relative;
+            
+           
+            left: 5px;
+        }
+        #model5{
+                 position:relative;
+                 left:24px;
+                 bottom:24px;
+                 
+                
+
+                       }
+        .model6{
+              position:relative;
+                 
+                 left:420px;
+                 
+
+        }
+        
+        .model8{
+            position:relative;
+                 
+                 
+                 left:100px;
+
+        }
+       
+#model9{
+    position:relative;
+                 top:15px;
+                 right:10px;
+                 left:200px;
+
+}
+
+.m3{
+    border:1px solid  lightblue;
+    width:100px;
+    height:2px;
+    float:left;
+    position:relative;
+    bottom:20px;
+}
+    </style>
+
+</head>
+<body>
+
+
+    <div class="row" style="border:1px solid whitesmoke;">
+
+        <div class="column left">
+            <div style="float:left">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <div class="column left" style="float:right">
+            
+                <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px" >John Deo</h6> 
+        
+           
+                <img src="../../Images/request-icons-05.png" style="width:20px;height:20px;" id="model11">
+            
+        </div>
+
+
+
+
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <p id="model4">My Requests<hr class="m3"></p>
+                </div>
+                <div class="column">
+                    <input type="text" value="Search" class="model3" style="border:1px solid black; width:500px;height:35px">
+                    <i style="font-size:15px" class="fa">&#xf002;</i>
+                
+                    
+                </div>
+                <div class="button">
+                    <input type="button" value="New Request" style="border-radius:10px;color:white;background-color:deepskyblue;height:25px">
+                </div>
+            </div><hr width="5px">
+
+
+
+
+
+
+            <div class="row">
+                <div class="column">
+                    <img src="../Images/request-icons-01.png" style="width:20px;height:20px;" id="model">
+                    <p id="model5" style="font-size:10px">
+                        FILTER<br />
+                        <b>Showing approved requests</b>
+                    </p>
+                </div>
+
+                
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p style="font-size:11px">
+                        PUR-2019-056 <br />
+                        <p style="font-size:9px;">Submitted on
+                        <p style="font-size:11px;line-height:2px">06 Jul 2019
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;" id="model9">
+
+
+
+                </div>
+                <div class="column">
+
+                    <p style="text-align:right;font-size:11px;" class="model8"> APPROVED  <span style='font-size:25px;color:lightgreen;'>&#8226;</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p style="font-size:11px">
+                        PUR-2019-056<br />
+                    <p style="font-size:9px;">Submitted on
+                    <p style="font-size:11px;line-height:2px">6 Jul 2019
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;" id="model9">
+                </div>
+                <div class="column">
+
+                    <p style="text-align:right;font-size:11px;" class="model8"> APPROVED    <span style='font-size:25px;color:lightgreen;'>&#8226;</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p style="font-size:11px">
+                        PUR-2019-056<br />
+                    <p style="font-size:9px;">Submitted on
+                    <p style="font-size:11px;line-height:2px">
+                        6 Jul 2019
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;" id="model9">
+
+                </div>
+                <div class="column">
+
+                    <p style="text-align:right;font-size:11px;" class="model8">APPROVED    <span style='font-size:25px;color:lightgreen;'>&#8226;</span></p>
+
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <p align="center" class="model6">Show More</p><img src="../../Images/request-icons-05.png" style="width:20px;height:20px;" id="model1">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+   
+
+
+</body>
+</html>
