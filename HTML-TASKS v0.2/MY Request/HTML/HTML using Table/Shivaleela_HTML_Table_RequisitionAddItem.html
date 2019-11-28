@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .body{
+        font-family: Arial;
+        }
+
+        
+
+        .left {
+            width: 15%;
+        }
+
+        .right {
+            width: 10%;
+        }
+
+        .middle {
+            width: 75%;
+        }
+
+        
+        .row:before {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .container {
+            border: 1px solid black;
+            background-color: gray;
+            width: 100%;
+            height: 700px;
+           
+           
+        }
+
+        .column2 {
+            float: left;
+            width: 500px;
+            padding: 20px;
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-bottom: 30px;
+            height: 50px;
+           
+        }
+
+        .row1 {
+            padding: 1px;
+            background: white;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            width: 10%;
+        }
+
+        .row2 {
+            padding: 1px;
+            background: white;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            width: 5%;
+            margin-top: 10px;
+        }
+
+        .row3 {
+            padding: 1px;
+            background: white;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            width: 10%;
+            padding-top: 30px;
+        }
+
+        .row4 {
+            padding: 1px;
+            background: white;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            padding-top: 30px;
+            width: 10%;
+        }
+
+        .row5 {
+            padding: 1px;
+            background: white;
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+            width: 10%;
+            padding-top: 30px;
+        }
+
+        .row6 {
+            padding: 1px;
+            background: white;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+            width: 10%;
+            padding-top: 60px;
+        }
+
+        #model1 {
+            position: relative;
+            left:450px;
+            bottom: 40px;
+           
+        }
+
+        #model2 {
+            position: relative;
+            
+            right: 7px;
+            left: 350px;
+            border-radius: 29px;
+            width: 70px;
+        }
+
+        #model3 {
+            position: relative;
+            top: 8px;
+            right: -77px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <table class="container">
+
+        <tr class="column2">
+            <td class="row1">
+                <h3 style="position: relative;
+      top: 8px;
+      right: 50px;
+      left: 30px;">
+                    ADD ITEM
+                </h3>
+                <p id="model1"><img src="../../Images/request-icons-13.png" alt="cancel" style="width:30px;height:30px;"></p>
+            </td>
+        </tr>
+
+
+        <tr class="column2">
+            <td class="row2">
+                
+                <p style="position: relative;
+        bottom: 10px;
+        right: 30px;
+        left: 30px;">DESCRIPTION</p>
+                <p style="position: relative;
+        bottom: 20px;
+        right: 30px;
+        left: 30px;"><textarea rows="4" cols="30" style="border-radius:5px;"></textarea></p>
+
+            </td>
+        </tr>
+        <tr class="column2">
+            <td class="row3">
+                <p style="position: relative;
+        bottom: 10px;
+        right: 30px;
+        left: 30px;">QTY</p>
+                <p style="position: relative;
+     bottom: 10px;
+     right: 30px;
+     left: 30px;"><textarea rows="2" cols="25" style="border-radius:5px;"></textarea></p>
+            </td>
+        </tr>
+        <tr class="column2">
+            <td class="row4">
+                <p style="position: relative;
+        bottom: 10px;
+        right: 30px;
+        left: 30px;">FULLFILLMENT DUE DATE </p>
+
+                <p style="position: relative;
+     bottom: 20px;
+     right: 30px;
+     left: 30px;">
+                    <textarea rows="2" cols="25" style="border-radius:5px;"></textarea><span id="model3">
+                        <img src="../../Images/request-icons-17.png" alt="calender" style="width:50px;height:50px;">
+                    </span>
+                </p>
+            </td>
+
+        </tr>
+        <tr class="column2">
+            <td class="row5">
+                <p style="position: relative;
+        bottom: 10px;
+        right: 30px;
+        left: 30px;">APPROXIMATE PRICE</p>
+                <p style="position: relative;
+     bottom: 10px;
+     right: 30px;
+     left: 30px;"><textarea rows="2" cols="25" style="border-radius:5px;"></textarea></p>
+            </td>
+        </tr>
+
+
+
+        <tr class="column2">
+            <td class="row6">
+                
+                <u style="position: relative;
+      bottom: 10px;
+      right: 50px;
+      left: 30px;">CANCEL</u>
+
+                <input type="button" value="Done" id="model2" style="border-radius:29px;color:white;background-color:#32BDD2;height:25px;bottom: 7px;" />
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
