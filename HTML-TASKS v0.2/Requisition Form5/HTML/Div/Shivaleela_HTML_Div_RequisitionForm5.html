@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet " />
+    <title>Requisition Form5</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 3px solid #f1f1f1;
+        }
+
+        .row {
+            background: #FFFFFF;
+        }
+
+        .sub_row {
+            background: #FFFFFF;
+        }
+
+        body {
+            background: #FCFCFC;
+            font-family: Roboto;
+        }
+
+        .content {
+            background-color: #F6F8F9;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .sub_column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .avatar {
+            width: 6%;
+            height: 6%;
+            border-radius: 50%;
+            position: relative;
+            top: 12px;
+            left: 72%;
+        }
+
+        h6 {
+            float: right;
+            position: relative;
+            top: 22px;
+            right: 10%;
+        }
+
+        .header {
+            background: white;
+            font-size: 30px;
+            height: 55px;
+        }
+
+        #requisition {
+            transform: rotate(270deg);
+            position: relative;
+            top: 85px;
+            left: 12%;
+        }
+
+        #save {
+            position: relative;
+            top: 12%;
+            left: 1%;
+        }
+
+        .horizontal {
+            border: 1px solid #000000;
+            width: 8%;
+            float: left;
+            position: relative;
+            top: 65px;
+        }
+
+        .item {
+            position: relative;
+            top: 25px;
+            right: 30px;
+            left: 20px;
+        }
+
+        #add {
+            position: relative;
+            bottom: 4%;
+            right: 8%;
+        }
+
+        #icon {
+            position: relative;
+            top: 5px;
+            left: 85%;
+        }
+
+        #button {
+            position: relative;
+            top: 30px;
+            left: 80%;
+        }
+
+        #back {
+            position: relative;
+            right: 15%;
+            top: 39px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="column left" style="float:left">
+                <img src="../../Images/request-icons-02.png" style="width:5%;position:relative;top:10px;left:4%;">
+            </div>
+            <div class="column left">
+                <div style="float:right">
+                    <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px">John Deo</h6>
+                    <img src="../../Images/request-icons-05.png" style='font-size:24px;width:20px;height:20px;' id="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="column" style="background-color:#FFFFFF;width:5%;height:548px;">
+                    <p id="requisition" style="font-size:12px;"><b>REQUISITION</b></p>
+                    <img src="../../Images/request-image-34.png" style="height:400px; position:relative;top:110px;left:1%;">
+                </div>
+                <div class="sub_column" style="background-color:#FCFCFC;width:95%;">
+                    <div class="sub_row" style="background-color:#FCFCFC;width:92%;margin-left:4%;height:500px;">
+                        <div style="background-color:#F0F0F0;height:80px;margin-top:5%;">
+                            <h4 style="font-size:12px;" class="item">APPROVAL(S)</h4>
+                            <p style="font-size:12px;padding-top:1%;" class="item">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                            <h5 style="text-align:right;" id="add">ADD APPROVER</h5>
+                            <img src="../../Images/request-icons-10.png" style="height:50%;position:relative;bottom:30px;left:93%" />
+                        </div>
+                        <div style="background-color:#FFFFFF;height:315px;">
+                            <div style="border: 1px solid #D5E2E8;background: #F4F8FA ;padding:1%;width:55%;height:55px;position:relative;top:19%;left:5%;">
+                                <img src="../../Images/img_avatar.png" style="width:7%;height:136%;border-radius:30px;position:relative;left:4%;bottom:5px;">
+                                <p style="position:relative;bottom:135%;left:15%;font-size:12px;"> Luke Ray</p>
+                                <p style="font-size:10px;position:relative;bottom:126%;left:15%">
+                                    Lorem ipsum doler sit amet.
+                                </p>
+                                <img src="../../Images/request-icons-15.png" style="width:30px;height:30px;position:relative;bottom:70px;left:90%">
+                            </div>
+                            <div style="border: 1px solid #D5E2E8;background: #F4F8FA ;padding:1%;width:55%;height:55px;position:relative;top:19%;left:5%;margin-top:1%;">
+                                <img src="../../Images/img_avatar.png" style="width:7%;height:136%;border-radius:30px;position:relative;left:4%;bottom:5px;">
+                                <p style="position:relative;bottom:135%;left:15%;font-size:12px;"> Kate Gill</p>
+                                <p style="font-size:10px;position:relative;bottom:126%;left:15%">
+                                    Lorem ipsum doler sit amet.
+                                </p>
+                                <img src="../../Images/request-icons-15.png" style="width:30px;height:30px;position:relative;bottom:70px;left:90%">
+                            </div>
+                        </div>
+                        <p id="save" style="font-size:12px">SAVE DRAFT</p><hr class="horizontal" />
+                        <h6 style="color:#32BDD2;float:right;" id="back"><u>BACK</u></h6>
+                        <input type="button" value="Next ->" id="button" style="border-radius:29px;border-color:#32BDD2;color:#FFFFFF;background-color:#32BDD2;height:35px;width:12%;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>

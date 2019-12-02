@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet " />
+    <title></title>
+    <style>
+        body {
+            margin-left: 10px;
+            background:#F6F8F9;
+            font-family:Roboto;
+        }
+
+        .container {
+            border: 3px solid #F6F8F9;
+            width: 100%;
+        }
+        .content {
+            
+            background-color: #F6F8F9;
+        }
+        .column {
+            float: left;
+            width: 50%;
+        }
+        .column_sub {
+            float: left;
+            width: 50%;
+        } 
+        .main_content {
+            float: left;
+            width: 50%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .avatar {
+            width: 5%;
+            border-radius: 50%;
+            position: relative;
+            left: 72%;
+            top: 18px;
+        }
+        h6 {
+            float: right;
+            margin-bottom: 30px;
+            position: relative;
+            right: 13%;
+        }
+        .header {
+            background: #FFFFFF;
+            font-size: 30px;
+            
+        }      
+        #down {
+            position: relative;
+            left: 84%;
+            top: 16px;
+        }
+        .note {
+            position: relative;
+            top: 10%;
+            left: 5%;
+        }
+        #requisition {
+            transform: rotate(270deg);
+            position: relative;
+            top: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="column left">
+                <div style="float:left">
+                    <img src="../../Images/request-icons-02.png" style="width:8%;position:relative;top:10px;left:4%;">
+                </div>
+            </div>
+            <div class="column left">
+                <div style="float:right">
+                    <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px">John Deo</h6>
+                    <img src="../../Images/request-icons-05.png" style='font-size:24px;height:20px;' id="down">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="main_content" style="background-color:#FFFFFF;width:5%;height:548px;">
+                    <p id="requisition" style="font-size:14px;line-height:5"><b>REQUSITION</b></p>
+                    <img src="../../Images/request-image-35.png" style="width:110%;height:400px; ">
+                </div>
+                <div class="sub_column" style="background-color:#FCFCFC;width:100%;height:548px;">
+                    <h5 class="note" style="color:#B5B5B5;">ACKNOWLEDGEMENT</h5>
+                    <p style="font-size:10px;position:relative;left:5%; top:10%"><b>Your request has been saved as draft.</b></p>
+                    <p class="note" style="line-height:1;font-size:9px;">
+                        LoremLorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris mattis, tortor sit amet
+                    <p class="note" style="line-height:1;font-size:9px;">tempor vehicula,tortor vehicula ipsum faucibus nunc,id aliquam lacus odio nec magna. Cras a ipsum
+                    <p class="note" style="line-height:1;font-size:9px;">
+                        placerat,efficitur nibh sed,iaculis elit. Mauris semper tempor facilisis.
+                    </p>
+                </div>
+            </div>
+     </div>
+        </div>
+</body>
+</html>

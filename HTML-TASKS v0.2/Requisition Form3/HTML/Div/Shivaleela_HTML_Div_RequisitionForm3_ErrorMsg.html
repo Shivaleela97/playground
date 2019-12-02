@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Requisition-Form6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet " />
+    <style>
+        .row {
+            background: #ffffff;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .sub_row {
+            background: #ffffff;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .brand {
+            background: #ffffff;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        body {
+            background: #F6F8F9;
+            font-family: Roboto;
+        }
+
+        .content {
+            background-color: #F6F8F9;
+            height: 480px;
+        }
+
+        .sub_column {
+            float: left;
+            width: 50%;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .avatar {
+            width: 5%;
+            border-radius: 50%;
+            position: relative;
+            left: 72%;
+            top: 18px;
+        }
+
+        h6 {
+            float: right;
+            margin-bottom: 30px;
+            position: relative;
+            right: 12%;
+        }
+
+        .header {
+            background: #FFFFFF;
+            font-size: 30px;
+            width: 100%;
+        }
+
+
+
+
+        .attach {
+            position: relative;
+            top: 25px;
+            right: 30px;
+            left: 20px;
+          
+        }
+        .para {
+            position: relative;
+            top: 12px;
+            right: 30px;
+            left: 20px;
+            
+          
+        }
+
+        .text {
+            position: relative;
+            top: -70px;
+            left: 70px;
+        }
+
+        #text {
+            position: relative;
+            top: -207px;
+            left: 81%
+        }
+
+        .model {
+            color: #000000;
+            width: 6%;
+            position: relative;
+            top: 40px;
+            right: 41%;
+        }
+
+        #save {
+            position: relative;
+            top: 50px;
+            left: 4%;
+        }
+
+        #back {
+            position: relative;
+            bottom: 10px;
+            right: 13%;
+        }
+
+        #next {
+            position: relative;
+            top: 7px;
+            left: 85%;
+        }
+
+        #down {
+            position: relative;
+            left: 84%;
+            top: 16px;
+        }
+
+        #requisition {
+            transform: rotate(270deg);
+            position: relative;
+            top: 18px;
+        }
+
+        .container {
+            border: 1px solid #F0F0F0;
+        }
+        #warning{
+            position:relative;
+            right:22px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="row">
+            <div class="column left">
+                <div style="float:left">
+                    <img src="../../Images/request-icons-02.png" style="width:8%;position:relative;top:10px;left:4%;">
+                </div>
+            </div>
+            <div class="column left">
+                <div style="float:right">
+                    <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px">John Deo</h6>
+                    <img src="../../Images/request-icons-05.png" style='font-size:24px;height:20px;' id="down">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="column" style="background-color:#FFFFFF;width:5%; height:650px;">
+                    <p id="requisition" style="font-size:14px;line-height:5"><b>REQUSITION</b></p>
+                    <img src="../../Images/request-image-32.png" style="width:100%;height:400px; ">
+
+                </div>
+                <div class="sub_column" style="background-color:#FCFCFC;width:95%; height:548px;">
+                    <div class="sub_row" style="background-color:#FFFFFF;width:94%;height:470px;margin-left:32px;">
+
+                        <div class="brand" style="background-color:#F0F0F0; height:70px;">
+                            <p style="font-size:15px;" class="attach"><b>ATTACHMENTS</b></p>
+                            <p style="font-size:12px;color:#747474;" class="para">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="row" style="background-color:#FFFFFF;height:100px;">
+
+                            <p style="font-size:12px;border:1px solid lightgray;background:#ffffff;top:30px;left:50px;width:331px;height:104px; " class="attach">
+                                <div class="text" style="line-height:1.1em;font-size:12px;">
+                                    <b>Select a file from my computer.</b><br>
+                                    Maximum allowed size is 5MB per file.Only documents like<br>
+                                    pdf,docs,ppt,xls etc are allowed
+                                </div>
+                                <input type="button" value="BROWSE" style="border-radius:10px;position:relative;top:-64px;left:65px;color:white;background-color:#32BDD2; border-color:#32BDD2;width:90px;height:30px;" />
+
+                            </p>
+
+                            <div class="column">
+                                <p style="outline:#32BDD2 solid 20px;border: 2px dashed white;background:#32BDD2;width:44%;height:63px;position:relative;left:64%;bottom:170px;">
+                                    <img src="../../Images/request-icons-06.png" style="width:25px;height:25px;position:relative;top:20px;left:130px;">
+                                    <div id="text" style="color:#ffffff;font-size:12px;">Drop a file here</div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+
+
+
+                        <p style="border:1px solid #DFEBEF;left:13%;font-size:12px;height:114px;position:relative;bottom:270px;background:#FFFFFF;width:97%;">
+                            <button style="background:deepskyblue;color:white;border-radius:15px;position:relative;left:84%;top:45px;">UPLOAD</button>
+                            <input type="text" name="name" placeholder="abc0037429023      976KB " size="40"
+                                   style="background:#E0E0E0;border-radius:8px;position:relative;width:53%;top:23px;right:33px;height:19%;padding-left:10px;word-spacing:22px;" />
+                            <hr style="color:#DFEBEF;position:relative;bottom:330px;left:1%;width:75%;" />
+                        <p style="color:#CB1720;font-size:12px;position:relative;bottom:295.8px;left:13%;border:1px solid #FFFFFF;width:73%;height:25px;background:#FFF5F5;padding-left:28px;">
+                         <img src="../../Images/request-icons-07.png" style="width:20px;height:20px;" id="warning" /> This field is required
+                        </p><br /><hr style="transform:rotate(270deg);width:17%;position:relative;bottom:422px;left:39%;" />
+                        <p style="position:relative;right:80%;bottom:330px;color:#B5B5B5;">
+                            write the description
+                        </p>
+                    </div>
+                </div>
+                    <div class="row" style="background-color:#FCFCFC;">
+                        <p id="save" style="font-size:12px;">SAVE DRAFT</p><hr class="model" />
+                        <h6 style="color:#32BDD2;" id="back"><u>BACK</u></h6>
+                        <input type="button" value="Next ->" id="next" style="border-radius:29px;color:white;background-color:#32BDD2;height:30px;width:89px; border-color:#32BDD2" />
+                    </div>
+                   
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
